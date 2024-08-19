@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverless AWS Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Understanding Serverless AWS Applications</h1>
+        <div class="reader-info">
+            <p>Searched by <span class="counter-number">0</span> readers</p>
+        </div>
+    </header>
+    <br>
+
+    <section id="search-section">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search keywords in the blog...">
+            <button id="search-btn"><i class="fas fa-search"></i> Search</button>
+        </div>
+        <div id="search-result" class="search-result"></div>
+    </section>
+    
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Serverless computing allows you to build and run applications and services without thinking about servers. AWS provides a comprehensive set of services that enable you to build serverless applications. In this blog, we'll explore what serverless means, the benefits of using serverless architecture, and how to build a serverless application using AWS.</p>
+        </section>
+
+        <section id="what-is-serverless">
+            <h2>What is Serverless?</h2>
+            <p>Serverless is a cloud-computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. A serverless application runs in stateless compute containers that are event-triggered, ephemeral (may last for a single invocation), and fully managed by the cloud provider.</p>
+        </section>
+
+        <section id="benefits">
+            <h2>Benefits of Serverless Architecture</h2>
+            <ul>
+                <li><strong>Cost Efficiency:</strong> Pay only for what you use.</li>
+                <li><strong>Scalability:</strong> Automatically scales with demand.</li>
+                <li><strong>Reduced Operational Overhead:</strong> No need to manage servers or infrastructure.</li>
+                <li><strong>Quick Deployment:</strong> Focus on writing code, not managing infrastructure.</li>
+            </ul>
+        </section>
+
+        <section id="aws-services">
+            <h2>AWS Services for Serverless Applications</h2>
+            <p>AWS offers a wide range of services that can be used to build serverless applications:</p>
+            <img src="/model.png" alt="Serverless Architecture">
+         
+            <ul>
+                <li><strong>AWS Lambda:</strong> Run code without provisioning or managing servers.</li>
+                <li><strong>Amazon S3:</strong> Object storage built to store and retrieve any amount of data.</li>
+                <li><strong>Amazon DynamoDB:</strong> A fast and flexible NoSQL database service.</li>
+                <li><strong>Amazon CloudFront:</strong> Content delivery network (CDN) for delivering content with low latency.</li>
+                <li><strong>Amazon Route 53:</strong> Scalable domain name system (DNS) for routing end users to your application.</li>
+            </ul>
+        </section>
+
+        <section id="example">
+            <h2>Building a Serverless Application</h2>
+            <p>To build a simple serverless application on AWS, follow these steps:</p>
+            <ol>
+                <li>Create a Lambda function that handles backend logic.</li>
+                <li>Use DynamoDB to store application data.</li>
+                <li>Store static content (e.g., HTML, CSS, JS files) on S3.</li>
+                <li>Distribute content globally using CloudFront.</li>
+                <li>Manage DNS and domain routing using Route 53.</li>
+            </ol>
+        </section>
+
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>Serverless architecture offers a modern approach to building applications that are scalable, cost-efficient, and quick to deploy. AWS provides a variety of services that make it easy to create robust serverless applications. Start exploring the serverless paradigm today and build powerful applications without the hassle of managing infrastructure!</p>
+        </section>
+
+        <section id="subscribe-section">
+            <button id="subscribe-btn">Subscribe</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sakshi Pawar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
