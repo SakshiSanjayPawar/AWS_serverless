@@ -3,13 +3,9 @@
 ## Overview
 This project showcases the implementation of a serverless web application using a range of AWS services. The application features a blog section that dynamically displays the number of viewers. The viewer count updates in real-time as users access the website, demonstrating the seamless integration of serverless technologies.
 
-## Architecture
+## Architecture![model](https://github.com/user-attachments/assets/8c6a460b-aaac-4e8a-a4f1-9756093c5f69)
+
 The application utilizes the following AWS services:
-
-
-![Screenshot 2024-08-17 155135](https://github.com/user-attachments/assets/680c5496-fde0-42fa-91aa-03700ec14925)
-
-
 - **DynamoDB:** Serves as the NoSQL database to store application data, such as viewer counts.
 - **AWS Lambda:** Executes backend logic to fetch and update the viewer count on the blog page.
 - **Amazon S3:** Hosts and stores static files, including HTML, CSS, and JavaScript, for the blog.
