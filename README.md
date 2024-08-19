@@ -6,6 +6,10 @@ This project showcases the implementation of a serverless web application using 
 ## Architecture
 The application utilizes the following AWS services:
 
+
+![Screenshot 2024-08-17 155135](https://github.com/user-attachments/assets/680c5496-fde0-42fa-91aa-03700ec14925)
+
+
 - **DynamoDB:** Serves as the NoSQL database to store application data, such as viewer counts.
 - **AWS Lambda:** Executes backend logic to fetch and update the viewer count on the blog page.
 - **Amazon S3:** Hosts and stores static files, including HTML, CSS, and JavaScript, for the blog.
