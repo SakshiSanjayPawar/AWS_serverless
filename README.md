@@ -1,4 +1,5 @@
-# Serverless Web Application on AWS
+# ServerlessInsight 
+Serverless Web Application on AWS
 
 ## Overview
 This project is a serverless web application built using AWS services, featuring a real-time blog viewer counter and a word search functionality. The viewer count updates dynamically as users visit the site, and users can search for a specific word in the blog to see how many times it occurs, showcasing the integration of serverless technologies.
